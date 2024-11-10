@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    src: url('assets/fonts/static/SourGummy_Expanded-Regular.ttf') format('ttf');
+    
+}
+@font-face {
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    src: url('assets/fonts/static/SourGummy-italic.ttf') format('ttf');
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --main-color: lightblue;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: var(--main-color);
+    }
+  }
+
+  body{
+    /* font-weight: 300 !important; */
+    font-family: "Sour Gummy", sans-serif;
+  }
