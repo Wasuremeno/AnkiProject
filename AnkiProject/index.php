@@ -8,8 +8,19 @@
     <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
-    <div>hello bitch</div>
+    <div class="container">
+    <div class="category-section">
+        <div class="option">
+            <span>hello bitch</span>
+        </div>
+        <div class="option">
+            <span>hello bitch</span>
+        </div>
+        <div class="option">
+            <span>hello bitch</span>
+        </div>
+        
+    </div>
+    </div>
 </body>
 </html>
-
-/Applications/XAMPP/xamppfiles/htdocs/AnkiProject/index.php

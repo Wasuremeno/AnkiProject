@@ -18,7 +18,8 @@
 
 
 :root{
-    --main-color: lightblue;
+    --main-color: #141414;
+    --secondary-color: #212121;
 }
 
 @media only screen and (max-width: 600px) {
@@ -30,4 +31,38 @@
   body{
     /* font-weight: 300 !important; */
     font-family: "Sour Gummy", sans-serif;
+    background-color: var(--main-color);
+    color: white;
   }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .category-section{
+    background: var(--secondary-color);
+    border-radius: 18px;
+    width: 20%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+  }
+
+  .option{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background: var(--secondary-color);
+    border-radius: 18px;
+    margin-bottom: 5px;
+  }
+
+  span{
+    height: 100%;
+    display: inline-block;
+  }
+
