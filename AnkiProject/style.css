@@ -22,6 +22,7 @@
     --secondary-color: #212121;
     --unfamiliar: #525252;
     --familiar: #4cb072;
+    --word-counter: #5f8bf8;
 }
 
 @media only screen and (max-width: 600px) {
@@ -41,9 +42,55 @@
     height: 70px;
     width: 100%;
     background: var(--secondary-color);
+    display: flex;
   }
 
-  nav>a[href]{
+   img{
+    width: auto;
+    height: 100px;
+    border-radius: 18px 18px 18px 18px;
+    margin: 10px 0px 10px 40px;
+  }
+
+  .mode{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+  /* .mode:first-child{
+    background: var(--main-color);
+  } */
+
+  .mode>div:first-child{
+    background: var(--main-color);
+    border-radius: 18px 18px 18px 18px;
+    padding: 20px 40px;
+  }
+
+  .mode>div>span{
+    position: absolute;
+    background: var(--word-counter);
+    height: 16px;
+    width: auto;
+    border-radius: 18px 18px 18px 18px;
+    padding: 5px 10px;
+    top: -1px;
+    right: -1px;
+  }
+
+  .arrow-left{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav>.arrow-left>a[href]{
     color: white;
     text-decoration: none;
   }
@@ -109,7 +156,7 @@
 
   .furigana{
     color: #B48A47;
-    padding: 40px 0px 10px 40px;
+    padding: 10px 0px 10px 40px;
   }
 
   .kanji{

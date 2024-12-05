@@ -62,7 +62,7 @@
 <body>
     <nav>
         <a href="/AnkiProject/index.php">Back</a>
-        <p>Learn new words</p>
+        <p>Mixed mod</p>
     </nav>
     <div class="container">
         <div class="flashcard">
